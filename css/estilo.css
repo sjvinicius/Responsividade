@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+text-decoration: none;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+background-color: #F9003D;
+width: 1920px;
+height: 60px; 
+}
+
+header nav {
+padding-top: 17px;
+height: 60px;
+padding: 18px 650px;                
+}
+
+header a {
+font-size: 18px;
+color: white;
+text-transform: uppercase;
+font-family: 'Bebas Neue', cursive;
+padding: 50px;
+}
+
+.classe1 {
+color: chartreuse;
+}
+
+#botao2{
+color: cyan;
+}
