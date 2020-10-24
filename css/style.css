@@ -247,6 +247,7 @@ margin-left: 10px;
 }
 /* Fim Rodape */
 
+/* MEDIA TABLETS */
 @media screen and (max-width: 1199px) {
     .topo {
         display: flex;
@@ -259,19 +260,39 @@ margin-left: 10px;
     }
     /* FIM MENU */
     .banner .content {
+        width: 100%;
         justify-content: center;
     }
     /* FIM BANNER */
+    .news {
+        height: auto;
+        padding-bottom: 5em;
+    }
     .content-news .notice {
         justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .content-news h2 {
-        padding-left: 30px;
+    .content-news {
+        width: 90%;
+        height: auto;
+        align-items: center;
+    }
+    .manch {
+        padding-top: 3em;
     }
     /* FIM NEWS */
     .margem-aba {
         justify-content: space-around;
+        width: 90%;
+    }
+    .content-aba h4 {
+        text-align: center;
     }
     /* FIM ABA */
-
+}
+/* MEDIA SMARTPHONE */
+@media screen and (max-width: 768px) {
+    
 }
